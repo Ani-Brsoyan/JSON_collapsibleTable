@@ -1,0 +1,37 @@
+{
+  "project": {
+      "name": "FPGA Design Optimization",
+      "description": "A project to optimize FPGA designs using Vivado.",
+      "team_members": [
+          {
+              "name": "Alice",
+              "role": "Lead Engineer"
+          },
+          {
+              "name": "Bob",
+              "role": "Hardware Designer"
+          }
+      ],
+      "status": "In Progress"
+  },
+  "dcp_file": {
+      "filename": "design_checkpoint.dcp",
+      "size": "1.5MB",
+      "date_created": "2024-08-15",
+      "components": {
+          "netlist": "Included",
+          "constraints": "Included",
+          "placement": "Partial",
+          "routing": "None"
+      }
+  },
+  "timing_analysis": {
+      "worst_negative_slack": "-0.2ns",
+      "total_negative_slack": "-1.5ns",
+      "timing_summary": {
+          "setup_time": "5ns",
+          "hold_time": "2ns",
+          "clock_skew": "0.1ns"
+      }
+  }
+}

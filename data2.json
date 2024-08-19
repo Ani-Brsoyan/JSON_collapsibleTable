@@ -1,0 +1,37 @@
+{
+    "project": {
+        "name": "DSP Optimization",
+        "description": "Optimizing digital signal processing algorithms on FPGA.",
+        "team_members": [
+            {
+                "name": "Charlie",
+                "role": "Signal Processing Engineer"
+            },
+            {
+                "name": "Dave",
+                "role": "FPGA Developer"
+            }
+        ],
+        "status": "Completed"
+    },
+    "dcp_file": {
+        "filename": "dsp_optimization.dcp",
+        "size": "2MB",
+        "date_created": "2024-07-20",
+        "components": {
+            "netlist": "Included",
+            "constraints": "Included",
+            "placement": "Complete",
+            "routing": "Complete"
+        }
+    },
+    "timing_analysis": {
+        "worst_negative_slack": "-0.1ns",
+        "total_negative_slack": "-0.5ns",
+        "timing_summary": {
+            "setup_time": "4ns",
+            "hold_time": "1.8ns",
+            "clock_skew": "0.05ns"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "project": {
+        "name": "High-Speed Ethernet",
+        "description": "Designing a high-speed Ethernet interface for FPGA.",
+        "team_members": [
+            {
+                "name": "Eve",
+                "role": "Network Engineer"
+            },
+            {
+                "name": "Frank",
+                "role": "Hardware Architect"
+            }
+        ],
+        "status": "Pending"
+    },
+    "dcp_file": {
+        "filename": "ethernet_interface.dcp",
+        "size": "3MB",
+        "date_created": "2024-08-10",
+        "components": {
+            "netlist": "Included",
+            "constraints": "Included",
+            "placement": "None",
+            "routing": "None"
+        }
+    },
+    "timing_analysis": {
+        "worst_negative_slack": "-0.3ns",
+        "total_negative_slack": "-2ns",
+        "timing_summary": {
+            "setup_time": "5.5ns",
+            "hold_time": "2.2ns",
+            "clock_skew": "0.15ns"
+        }
+    }
+}
